@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Venue Booking System</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+			<!-- Header -->
+			
+				<div id="header">
+					<!-- Inner -->
+						<div class="inner">
+							<header>
+								<img src="JUIT Logo White (1).png" alt="JUIT" width="300px" >
+								<h1><a href="index.html" id="logo">Venue Booking System</a></h1>
+								<hr />
+							</header>
+							<footer>
+								<a href="#banner" class="button circled scrolly"style="padding-top: -50px;">Start</a>
+							</footer>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav" style="font-size: 25px;">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="#book">Book Now</a></li>
+								<li><a href="#venue">Venue</a></li>
+
+							</ul>
+						</nav>
+
+				</div>
+
+			<!-- Banner -->
+				<section id="banner">
+					<header>
+						<h2><strong>TempusLocus</strong>.</h2>
+						<p>
+							A Venue Booking System for a university is a web-based application that enables students, faculty, and 
+							staff to reserve various university venues such as classrooms, lecture halls, seminar rooms, sports fields, auditoriums, and 
+							other campus facilities. It streamlines the process of booking venues for various academic, administrative, and co-curricular 
+							activities such as lectures, workshops, meetings, conferences, seminars, sports events, and cultural programs.
+						</p>
+					</header>
+				</section>
+
+			<!-- Carousel -->
+				<section id="venue"class="carousel">
+					<div class="reel">
+
+						<article>
+							<a href="#" class="image featured"><img src="front.jpg" alt="" /></a>
+							<header>
+								<h3>Main Gate</h3>
+							</header>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="JUIT1.jpg" alt="" /></a>
+							<header>
+								<h3>Lecture Theater</h3>
+							</header>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="cl.jpg" alt="" /></a>
+							<header>
+								<h3>Computer Lab</h3>
+							</header>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="eclab.jpg" alt="" /></a>
+							<header>
+								<h3>Electric Lab</h3>
+							</header>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="oc.jpg" alt="" /></a>
+							<header>
+								<h3>Cafeteria</h3>
+							</header>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="btlab.jpg" alt="" /></a>
+							<header>
+								<h3>Bio-Tech Lab</h3>
+							</header>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="bbc.jpg" alt="" /></a>
+							<header>
+								<h3>BBC</h3>
+							</header>
+						</article>
+					</div>
+				</section>
+			<section id="book">
+			<!-- Main -->
+				<div class="wrapper style2">
+
+					<article id="main" class="container special">
+						<header>
+							<h2 style="padding-top: 20px; padding-bottom: 20px;"><strong>Book Your Venue Now</strong></h2>
+							<form style="font-size: 30px;">
+								<label for="name"><b>Name:</b></label>
+								<input type="text" id="name" name="name" required>
+								<br>
+								<label for="designation">Designation:</label>
+								<select id="designation" name="designation" required>
+										<option value="">Select Designation</option>
+										<option value="student">Student</option>
+										<option value="faculty">Faculty</option>
+										<option value="staff">Staff</option>
+										<option value="others">Others</option>
+								</select>
+								<br>
+								<label for="email">Email:</label>
+								<input type="email" id="code" name="code" required>
+								<br>
+								<label for="venue">Venue:</label>
+								<select id="venue" name="venue" required>
+										<option value="">Select Desired Location</option>
+										<option value="venue1">Lecture Theater</option>
+										<option value="venue2">Class Room</option>
+										<option value="venue3">Tutorial Room</option>
+										<option value="venue4">Computer Lab</option>
+										<option value="venue5">Electrical Lab</option>
+										<option value="venue6">Auditorium</option>
+										<option value="venue7">BBC</option>
+										<option value="venue8">Cafeteria</option></select>
+									<br>
+									<select id="venue-number" name="venue-number">
+											<option value="">Select Venue Number</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+											<option value="10">10</option>
+											<option value="11">11</option>
+											<!-- Add more options for specific venues if needed -->
+									</select>
+								<br>
+								<label for="date">Date:</label>
+								<input type="date" id="date" name="date" required>
+								<br>
+								<label for="start-time"style="padding-top:20px;">Start Time:</label>
+								<input type="time" id="start-time" name="start-time" required>
+								<br>
+								<label for="end-time"style="padding-top:20px;">End Time:</label>
+								<input type="time" id="end-time" name="end-time" required>
+								<br>
+								<label for="purpose"style="padding-top:20px;">Purpose:</label>
+								<input type="text" id="purpose" name="purpose" required>
+								<br>
+								<input type="submit" value="Book">
+								<input type="reset" value="Reset">
+						</form>
+						
+					</article>
+
+				</div>
+				</div>
+			</section>
+			<!-- Footer-->
+				<div id="footer">
+					<div class="container">
+					
+						<div class="row">
+							<div class="col-12">
+
+								<!-- Contact -->
+									<section class="contact">
+										<header>
+										<ul class="icons">
+											<li><a href="https://www.facebook.com/JUITWSolan" class="icon brands fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+											<li><a href="https://www.instagram.com/juit_solan/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+											<li><a href="https://www.linkedin.com/school/jaypee-university-of-information-technology/" class="icon brands fa-linkedin-in"target="_blank"><span class="label">Linkedin</span></a></li>
+											<li><a href="https://www.youtube.com/channel/UCdZZ7j5-5kyBzxz-gtNHvFA" class="icon brands fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+											
+										</ul>
+									</section>
+
+								<!-- Copyright -->
+									<div class="copyright">
+										<ul class="menu">
+											<li>&copy; JUIT Venue Booking System 2023.</li>
+										</ul>
+									</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+		</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+
+	</body>
+</html>
